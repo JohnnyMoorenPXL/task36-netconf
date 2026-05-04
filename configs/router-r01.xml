@@ -1,4 +1,3 @@
-<config>
   <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
 
     <hostname>LAB-RA07-A01-R01</hostname>
@@ -133,4 +132,3 @@
     </router>
 
   </native>
-</config>

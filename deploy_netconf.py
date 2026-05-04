@@ -26,7 +26,7 @@ def get_config(url):
     response = requests.get(url, timeout=10)
     response.raise_for_status()
 
-    if "<config>" not in response.text:
+    if "<native>" not in response.text:
         raise ValueError("Invalid NETCONF XML config")
 
     return response.text
@@ -44,7 +44,10 @@ def deploy_to_device(device):
             username=device["username"],
             password=device["password"],
             hostkey_verify=False,
-            device_params={"name": "iosxe"},
+            device_params={"name": "default"},
+            allow_agent=False,
+            look_for_keys=False,
+            timeout=30
         ) as m:
 
             log(f"{device['name']} - Connected")
@@ -61,9 +64,7 @@ def deploy_to_device(device):
 
             m.edit_config(
                 target="candidate",
-                config=xml_config,
-                default_operation="merge",
-                test_option="test-then-set"
+                config=xml_config
             )
             log(f"{device['name']} - edit-config OK")
 
