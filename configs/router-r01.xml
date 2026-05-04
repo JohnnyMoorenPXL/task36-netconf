@@ -1,4 +1,3 @@
-
 <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
 
   <hostname>LAB-RA07-A01-R01</hostname>
@@ -33,21 +32,24 @@
 
   <router>
     <ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
-      <id>10</id>
-      <router-id>10.199.66.143</router-id>
+      <ospf>
+        <process-id>10</process-id>
 
-      <network>
-        <ip>172.16.7.0</ip>
-        <mask>0.0.0.15</mask>
-        <area>0</area>
-      </network>
+        <router-id>10.199.66.143</router-id>
 
-      <network>
-        <ip>10.199.66.128</ip>
-        <mask>0.0.0.63</mask>
-        <area>0</area>
-      </network>
+        <network>
+          <ip>172.16.7.0</ip>
+          <mask>0.0.0.15</mask>
+          <area>0</area>
+        </network>
 
+        <network>
+          <ip>10.199.66.128</ip>
+          <mask>0.0.0.63</mask>
+          <area>0</area>
+        </network>
+
+      </ospf>
     </ospf>
   </router>
 
