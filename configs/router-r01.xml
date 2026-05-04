@@ -36,12 +36,12 @@
       <router-id>10.199.66.143</router-id>
       <network>
         <ip>172.16.7.0</ip>
-        <wildcard>0.0.0.15</wildcard>
+        <mask>0.0.0.15</mask>
         <area>0</area>
       </network>
       <network>
         <ip>10.199.66.128</ip>
-        <wildcard>0.0.0.63</wildcard>
+        <mask>0.0.0.63</mask>
         <area>0</area>
       </network>
     </ospf>
