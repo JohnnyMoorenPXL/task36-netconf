@@ -2,43 +2,10 @@
 
   <hostname>LAB-RA07-A01-SW01</hostname>
 
-  <vlan>
-    <vlan-list>
-      <id>10</id>
-      <name>Management</name>
-    </vlan-list>
-    <vlan-list>
-      <id>20</id>
-      <name>VM-Hosts</name>
-    </vlan-list>
-    <vlan-list>
-      <id>30</id>
-      <name>Appliance-Servers</name>
-    </vlan-list>
-    <vlan-list>
-      <id>40</id>
-      <name>Data-Users</name>
-    </vlan-list>
-    <vlan-list>
-      <id>99</id>
-      <name>Native-Vlan</name>
-    </vlan-list>
-  </vlan>
-
   <interface>
     <GigabitEthernet>
       <name>1/0/1</name>
       <description>Management access port</description>
-      <switchport>
-        <mode>
-          <access/>
-        </mode>
-        <access>
-          <vlan>
-            <vlan>10</vlan>
-          </vlan>
-        </access>
-      </switchport>
     </GigabitEthernet>
 
     <Vlan>
