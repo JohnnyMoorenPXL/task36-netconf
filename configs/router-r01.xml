@@ -1,49 +1,137 @@
 <config>
   <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
-    <hostname>R1-NETCONF</hostname>
+
+    <hostname>LAB-RA07-A01-R01</hostname>
 
     <interface>
       <GigabitEthernet>
-        <name>1</name>
-        <description>LAN</description>
+        <name>0/0/0</name>
+        <description>Trunk to LAB-RA07-A01-SW01</description>
+        <ip>
+          <no-address>
+            <no-address/>
+          </no-address>
+        </ip>
+      </GigabitEthernet>
+
+      <GigabitEthernet>
+        <name>0/0/1</name>
+        <description>WAN-Connect-OSPF-to-BR</description>
         <ip>
           <address>
             <primary>
-              <address>192.168.1.1</address>
-              <mask>255.255.255.0</mask>
+              <address>10.199.66.143</address>
+              <mask>255.255.255.192</mask>
             </primary>
           </address>
         </ip>
       </GigabitEthernet>
 
-      <GigabitEthernet>
-        <name>2</name>
-        <description>WAN</description>
-        <ip>
-          <address>
-            <primary>
-              <address>10.0.0.1</address>
-              <mask>255.255.255.252</mask>
-            </primary>
-          </address>
-        </ip>
-      </GigabitEthernet>
+      <GigabitEthernet-subinterface>
+        <GigabitEthernet>
+          <name>0/0/0.10</name>
+          <description>VLAN10 - Management</description>
+          <encapsulation>
+            <dot1Q>
+              <vlan-id>10</vlan-id>
+            </dot1Q>
+          </encapsulation>
+          <ip>
+            <address>
+              <primary>
+                <address>172.16.7.2</address>
+                <mask>255.255.255.240</mask>
+              </primary>
+            </address>
+          </ip>
+        </GigabitEthernet>
+
+        <GigabitEthernet>
+          <name>0/0/0.20</name>
+          <description>VLAN20 - VM-Hosts</description>
+          <encapsulation>
+            <dot1Q>
+              <vlan-id>20</vlan-id>
+            </dot1Q>
+          </encapsulation>
+          <ip>
+            <address>
+              <primary>
+                <address>172.16.7.18</address>
+                <mask>255.255.255.240</mask>
+              </primary>
+            </address>
+          </ip>
+        </GigabitEthernet>
+
+        <GigabitEthernet>
+          <name>0/0/0.30</name>
+          <description>VLAN30 - Appliance-Servers</description>
+          <encapsulation>
+            <dot1Q>
+              <vlan-id>30</vlan-id>
+            </dot1Q>
+          </encapsulation>
+          <ip>
+            <address>
+              <primary>
+                <address>172.16.7.34</address>
+                <mask>255.255.255.240</mask>
+              </primary>
+            </address>
+          </ip>
+        </GigabitEthernet>
+
+        <GigabitEthernet>
+          <name>0/0/0.40</name>
+          <description>VLAN40 - Data-Users</description>
+          <encapsulation>
+            <dot1Q>
+              <vlan-id>40</vlan-id>
+            </dot1Q>
+          </encapsulation>
+          <ip>
+            <address>
+              <primary>
+                <address>172.16.7.50</address>
+                <mask>255.255.255.240</mask>
+              </primary>
+            </address>
+          </ip>
+        </GigabitEthernet>
+      </GigabitEthernet-subinterface>
     </interface>
 
     <router>
       <ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
-        <id>1</id>
-        <router-id>1.1.1.1</router-id>
-
+        <id>10</id>
+        <router-id>10.199.66.143</router-id>
+        <passive-interface>
+          <default/>
+        </passive-interface>
         <network>
-          <ip>192.168.1.0</ip>
-          <wildcard>0.0.0.255</wildcard>
+          <ip>10.199.66.128</ip>
+          <wildcard>0.0.0.63</wildcard>
           <area>0</area>
         </network>
-
         <network>
-          <ip>10.0.0.0</ip>
-          <wildcard>0.0.0.3</wildcard>
+          <ip>172.16.7.0</ip>
+          <wildcard>0.0.0.15</wildcard>
+          <area>0</area>
+        </network>
+        <network>
+          <ip>172.16.7.16</ip>
+          <wildcard>0.0.0.15</wildcard>
+          <area>0</area>
+        </network>
+        <network>
+          <ip>172.16.7.32</ip>
+          <wildcard>0.0.0.15</wildcard>
+          <area>0</area>
+        </network>
+        <network>
+          <ip>172.16.7.48</ip>
+          <wildcard>0.0.0.15</wildcard>
           <area>0</area>
         </network>
       </ospf>
