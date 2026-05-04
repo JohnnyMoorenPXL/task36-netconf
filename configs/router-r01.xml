@@ -5,13 +5,8 @@
 
     <interface>
       <GigabitEthernet>
-        <name>0/0/0</name>
-        <description>Trunk to LAB-RA07-A01-SW01</description>
-        <ip>
-          <no-address>
-            <no-address/>
-          </no-address>
-        </ip>
+       <name>0/0/0</name>
+       <description>Trunk to LAB-RA07-A01-SW01</description>
       </GigabitEthernet>
 
       <GigabitEthernet>
