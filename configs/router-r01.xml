@@ -13,6 +13,10 @@
             <mask>255.255.255.240</mask>
           </primary>
         </address>
+        <ospf>
+          <process-id>10</process-id>
+          <area>0</area>
+        </ospf>
       </ip>
     </GigabitEthernet>
 
@@ -27,6 +31,10 @@
             <mask>255.255.255.192</mask>
           </primary>
         </address>
+        <ospf>
+          <process-id>10</process-id>
+          <area>0</area>
+        </ospf>
       </ip>
     </GigabitEthernet>
   </interface>
@@ -35,16 +43,6 @@
     <ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
       <id>10</id>
       <router-id>10.199.66.143</router-id>
-      <network>
-        <ip>172.16.7.0</ip>
-        <mask>0.0.0.15</mask>
-        <area>0</area>
-      </network>
-      <network>
-        <ip>10.199.66.128</ip>
-        <mask>0.0.0.63</mask>
-        <area>0</area>
-      </network>
     </ospf>
   </router>
 
