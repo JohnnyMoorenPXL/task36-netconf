@@ -1,0 +1,53 @@
+<config>
+  <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+    <hostname>R1-NETCONF</hostname>
+
+    <interface>
+      <GigabitEthernet>
+        <name>1</name>
+        <description>LAN</description>
+        <ip>
+          <address>
+            <primary>
+              <address>192.168.1.1</address>
+              <mask>255.255.255.0</mask>
+            </primary>
+          </address>
+        </ip>
+      </GigabitEthernet>
+
+      <GigabitEthernet>
+        <name>2</name>
+        <description>WAN</description>
+        <ip>
+          <address>
+            <primary>
+              <address>10.0.0.1</address>
+              <mask>255.255.255.252</mask>
+            </primary>
+          </address>
+        </ip>
+      </GigabitEthernet>
+    </interface>
+
+    <router>
+      <ospf xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-ospf">
+        <id>1</id>
+        <router-id>1.1.1.1</router-id>
+
+        <network>
+          <ip>192.168.1.0</ip>
+          <wildcard>0.0.0.255</wildcard>
+          <area>0</area>
+        </network>
+
+        <network>
+          <ip>10.0.0.0</ip>
+          <wildcard>0.0.0.3</wildcard>
+          <area>0</area>
+        </network>
+      </ospf>
+    </router>
+
+  </native>
+</config>
