@@ -13,10 +13,6 @@
             <mask>255.255.255.240</mask>
           </primary>
         </address>
-        <ospf>
-          <process-id>10</process-id>
-          <area>0</area>
-        </ospf>
       </ip>
     </GigabitEthernet>
 
@@ -31,10 +27,6 @@
             <mask>255.255.255.192</mask>
           </primary>
         </address>
-        <ospf>
-          <process-id>10</process-id>
-          <area>0</area>
-        </ospf>
       </ip>
     </GigabitEthernet>
   </interface>
