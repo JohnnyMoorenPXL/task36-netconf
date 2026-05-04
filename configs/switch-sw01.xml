@@ -1,88 +1,62 @@
-<config>
-  <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+<native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
 
-    <hostname>LAB-RA07-A01-SW01</hostname>
+  <hostname>LAB-RA07-A01-SW01</hostname>
 
-    <vlan>
-      <vlan-list>
-        <id>10</id>
-        <name>Management</name>
-      </vlan-list>
-      <vlan-list>
-        <id>20</id>
-        <name>VM-Hosts</name>
-      </vlan-list>
-      <vlan-list>
-        <id>30</id>
-        <name>Appliance-Servers</name>
-      </vlan-list>
-      <vlan-list>
-        <id>40</id>
-        <name>Data-Users</name>
-      </vlan-list>
-      <vlan-list>
-        <id>99</id>
-        <name>Native-Vlan</name>
-      </vlan-list>
-    </vlan>
+  <vlan>
+    <vlan-list>
+      <id>10</id>
+      <name>Management</name>
+    </vlan-list>
+    <vlan-list>
+      <id>20</id>
+      <name>VM-Hosts</name>
+    </vlan-list>
+    <vlan-list>
+      <id>30</id>
+      <name>Appliance-Servers</name>
+    </vlan-list>
+    <vlan-list>
+      <id>40</id>
+      <name>Data-Users</name>
+    </vlan-list>
+    <vlan-list>
+      <id>99</id>
+      <name>Native-Vlan</name>
+    </vlan-list>
+  </vlan>
 
-    <interface>
-      <GigabitEthernet>
-        <name>1/0/1</name>
-        <description>Trunk to LAB-RA07-A01-R01</description>
-        <switchport>
-          <mode>
-            <trunk/>
-          </mode>
-          <trunk>
-            <native>
-              <vlan>
-                <vlan-id>99</vlan-id>
-              </vlan>
-            </native>
-            <allowed>
-              <vlan>
-                <vlans>10,20,30,40</vlans>
-              </vlan>
-            </allowed>
-          </trunk>
-        </switchport>
-      </GigabitEthernet>
+  <interface>
+    <GigabitEthernet>
+      <name>1/0/1</name>
+      <description>Management access port</description>
+      <switchport>
+        <mode>
+          <access/>
+        </mode>
+        <access>
+          <vlan>
+            <vlan>10</vlan>
+          </vlan>
+        </access>
+      </switchport>
+    </GigabitEthernet>
 
-      <GigabitEthernet>
-        <name>1/0/2</name>
-        <description>Access - Management</description>
-        <switchport>
-          <mode>
-            <access/>
-          </mode>
-          <access>
-            <vlan>
-              <vlan>10</vlan>
-            </vlan>
-          </access>
-        </switchport>
-      </GigabitEthernet>
-    </interface>
+    <Vlan>
+      <name>10</name>
+      <description>Management SVI</description>
+      <ip>
+        <address>
+          <primary>
+            <address>172.16.7.5</address>
+            <mask>255.255.255.240</mask>
+          </primary>
+        </address>
+      </ip>
+    </Vlan>
+  </interface>
 
-    <interface>
-      <Vlan>
-        <name>10</name>
-        <description>Management SVI</description>
-        <ip>
-          <address>
-            <primary>
-              <address>172.16.7.5</address>
-              <mask>255.255.255.240</mask>
-            </primary>
-          </address>
-        </ip>
-      </Vlan>
-    </interface>
+  <ip>
+    <default-gateway>172.16.7.2</default-gateway>
+  </ip>
 
-    <ip>
-      <default-gateway>172.16.7.1</default-gateway>
-    </ip>
-
-  </native>
-</config>
+</native>
