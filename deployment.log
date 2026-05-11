@@ -291,3 +291,14 @@
 2026-05-11 14:45:46 - SW01 - Post-check OK
 2026-05-11 14:45:46 - SW01 - Candidate unlocked
 2026-05-11 14:45:46 - SW01 - NETCONF session closed
+2026-05-11 15:06:29 - --- Deploying to SW01 ---
+2026-05-11 15:06:29 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/switch-sw01.xml
+2026-05-11 15:06:31 - SW01 - Connected
+2026-05-11 15:06:31 - SW01 - Candidate locked
+2026-05-11 15:06:31 - SW01 - Candidate cleared
+2026-05-11 15:06:31 - SW01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>id</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:id\n  ', 'message': None}
+2026-05-11 15:06:31 - SW01 - discard-changes executed
+2026-05-11 15:06:32 - SW01 - Candidate unlocked
+2026-05-11 15:06:32 - SW01 - NETCONF session closed
+2026-05-11 15:06:32 - SW01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>id</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:id\n  ', 'message': None}
+
