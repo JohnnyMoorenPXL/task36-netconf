@@ -5,12 +5,7 @@
   <interface>
     <GigabitEthernet>
       <name>1/0/1</name>
-      <description>Laptop management port</description>
-    </GigabitEthernet>
-
-    <GigabitEthernet>
-      <name>1/0/2</name>
-      <description>Router management link</description>
+      <description>Management access port</description>
     </GigabitEthernet>
 
     <Vlan>
