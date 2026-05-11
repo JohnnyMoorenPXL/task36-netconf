@@ -271,3 +271,23 @@
 2026-05-11 14:17:29 - R01 - Post-check OK
 2026-05-11 14:17:29 - R01 - Candidate unlocked
 2026-05-11 14:17:29 - R01 - NETCONF session closed
+2026-05-11 14:34:53 - --- Deploying to R01 ---
+2026-05-11 14:34:53 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-11 14:34:55 - R01 - Connected
+2026-05-11 14:34:55 - R01 - Candidate locked
+2026-05-11 14:34:55 - R01 - Candidate cleared
+2026-05-11 14:34:55 - R01 - edit-config OK
+2026-05-11 14:34:55 - R01 - COMMIT SUCCESS
+2026-05-11 14:35:00 - R01 - Post-check OK
+2026-05-11 14:35:00 - R01 - Candidate unlocked
+2026-05-11 14:35:00 - R01 - NETCONF session closed
+2026-05-11 14:45:04 - --- Deploying to SW01 ---
+2026-05-11 14:45:04 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/switch-sw01.xml
+2026-05-11 14:45:18 - SW01 - Connected
+2026-05-11 14:45:18 - SW01 - Candidate locked
+2026-05-11 14:45:18 - SW01 - Candidate cleared
+2026-05-11 14:45:18 - SW01 - edit-config OK
+2026-05-11 14:45:20 - SW01 - COMMIT SUCCESS
+2026-05-11 14:45:46 - SW01 - Post-check OK
+2026-05-11 14:45:46 - SW01 - Candidate unlocked
+2026-05-11 14:45:46 - SW01 - NETCONF session closed
