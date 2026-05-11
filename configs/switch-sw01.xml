@@ -6,31 +6,11 @@
     <GigabitEthernet>
       <name>1/0/1</name>
       <description>Laptop management port</description>
-      <switchport>
-        <mode>
-          <access/>
-        </mode>
-        <access>
-          <vlan>
-            <vlan>10</vlan>
-          </vlan>
-        </access>
-      </switchport>
     </GigabitEthernet>
 
     <GigabitEthernet>
       <name>1/0/2</name>
       <description>Router management link</description>
-      <switchport>
-        <mode>
-          <access/>
-        </mode>
-        <access>
-          <vlan>
-            <vlan>10</vlan>
-          </vlan>
-        </access>
-      </switchport>
     </GigabitEthernet>
 
     <Vlan>
