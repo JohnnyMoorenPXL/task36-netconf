@@ -1,13 +1,5 @@
 [
   {
-    "name": "R01",
-    "host": "172.16.7.2",
-    "port": 830,
-    "username": "admin",
-    "password": "cisco",
-    "config_url": "https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml"
-  },
-  {
     "name": "SW01",
     "host": "172.16.7.5",
     "port": 830,

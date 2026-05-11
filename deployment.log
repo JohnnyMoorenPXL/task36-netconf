@@ -1,0 +1,253 @@
+2026-05-04 14:21:03 - --- Deploying to R01 ---
+2026-05-04 14:21:03 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:21:17 - R01 - Connected
+2026-05-04 14:21:17 - R01 - Candidate locked
+2026-05-04 14:21:17 - R01 - Candidate cleared
+2026-05-04 14:21:17 - R01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>no-address</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/0']/ios:ip/ios:no-address\n  ", 'message': None}
+2026-05-04 14:21:17 - R01 - discard failed
+2026-05-04 14:21:17 - R01 - Deployment FAILED
+
+2026-05-04 14:23:56 - --- Deploying to R01 ---
+2026-05-04 14:23:56 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:23:57 - R01 - Connected
+2026-05-04 14:23:58 - R01 - Candidate locked
+2026-05-04 14:23:58 - R01 - Candidate cleared
+2026-05-04 14:23:58 - R01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>no-address</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/0']/ios:ip/ios:no-address\n  ", 'message': None}
+2026-05-04 14:23:58 - R01 - discard failed
+2026-05-04 14:23:58 - R01 - Deployment FAILED
+
+2026-05-04 14:35:12 - --- Deploying to R01 ---
+2026-05-04 14:35:12 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:35:25 - R01 - ERROR: Unexpected session close
+2026-05-04 14:35:25 - R01 - discard failed
+2026-05-04 14:35:25 - R01 - Deployment FAILED
+
+2026-05-04 14:38:42 - --- Deploying to R01 ---
+2026-05-04 14:38:42 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:38:44 - R01 - Connected
+2026-05-04 14:38:44 - R01 - Candidate locked
+2026-05-04 14:38:44 - R01 - Candidate cleared
+2026-05-04 14:38:44 - R01 - ERROR: {'type': 'protocol', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>config</bad-element>\n</error-info>\n', 'path': '\n    /rpc/edit-config\n  ', 'message': None}
+2026-05-04 14:38:44 - R01 - discard failed
+2026-05-04 14:38:44 - R01 - Deployment FAILED
+
+2026-05-04 14:40:07 - --- Deploying to R01 ---
+2026-05-04 14:40:07 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:40:08 - R01 - Connected
+2026-05-04 14:40:08 - R01 - Candidate locked
+2026-05-04 14:40:09 - R01 - Candidate cleared
+2026-05-04 14:40:09 - R01 - ERROR: {'type': 'protocol', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>config</bad-element>\n</error-info>\n', 'path': '\n    /rpc/edit-config\n  ', 'message': None}
+2026-05-04 14:40:09 - R01 - discard failed
+2026-05-04 14:40:09 - R01 - Deployment FAILED
+
+2026-05-04 14:43:19 - --- Deploying to R01 ---
+2026-05-04 14:43:19 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:43:20 - R01 - Deployment FAILED
+
+2026-05-04 14:45:08 - --- Deploying to R01 ---
+2026-05-04 14:45:08 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:45:08 - R01 - Deployment FAILED
+
+2026-05-04 14:47:18 - --- Deploying to R01 ---
+2026-05-04 14:47:18 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:47:19 - R01 - Connected
+2026-05-04 14:47:20 - R01 - Candidate locked
+2026-05-04 14:47:20 - R01 - Candidate cleared
+2026-05-04 14:47:20 - R01 - ERROR: Element [{http://cisco.com/ns/yang/Cisco-IOS-XE-native}native] does not meet requirement
+2026-05-04 14:47:20 - R01 - discard-changes executed
+2026-05-04 14:47:20 - R01 - Candidate unlocked
+2026-05-04 14:47:20 - R01 - NETCONF session closed
+2026-05-04 14:47:20 - R01 - Deployment FAILED: Element [{http://cisco.com/ns/yang/Cisco-IOS-XE-native}native] does not meet requirement
+
+2026-05-04 14:49:49 - --- Deploying to R01 ---
+2026-05-04 14:49:49 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:49:50 - R01 - Connected
+2026-05-04 14:49:50 - R01 - Candidate locked
+2026-05-04 14:49:51 - R01 - Candidate cleared
+2026-05-04 14:49:51 - R01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>GigabitEthernet-subinterface</bad-element>\n</error-info>\n', 'path': '\n    /rpc/edit-config/config/ios:native/ios:interface\n  ', 'message': None}
+2026-05-04 14:49:51 - R01 - discard-changes executed
+2026-05-04 14:49:51 - R01 - Candidate unlocked
+2026-05-04 14:49:51 - R01 - NETCONF session closed
+2026-05-04 14:49:51 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>GigabitEthernet-subinterface</bad-element>\n</error-info>\n', 'path': '\n    /rpc/edit-config/config/ios:native/ios:interface\n  ', 'message': None}
+
+2026-05-04 14:51:48 - --- Deploying to R01 ---
+2026-05-04 14:51:48 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:51:49 - R01 - Connected
+2026-05-04 14:51:49 - R01 - Candidate locked
+2026-05-04 14:51:49 - R01 - Candidate cleared
+2026-05-04 14:51:50 - R01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>GigabitEthernet-subinterface</bad-element>\n</error-info>\n', 'path': '\n    /rpc/edit-config/config/ios:native/ios:interface\n  ', 'message': None}
+2026-05-04 14:51:50 - R01 - discard-changes executed
+2026-05-04 14:51:50 - R01 - Candidate unlocked
+2026-05-04 14:51:50 - R01 - NETCONF session closed
+2026-05-04 14:51:50 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>GigabitEthernet-subinterface</bad-element>\n</error-info>\n', 'path': '\n    /rpc/edit-config/config/ios:native/ios:interface\n  ', 'message': None}
+
+2026-05-04 14:58:27 - --- Deploying to R01 ---
+2026-05-04 14:58:27 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 14:58:29 - R01 - Connected
+2026-05-04 14:58:29 - R01 - Candidate locked
+2026-05-04 14:58:29 - R01 - Candidate cleared
+2026-05-04 14:58:29 - R01 - ERROR: expected tag: mask, got tag: wildcard
+2026-05-04 14:58:29 - R01 - discard-changes executed
+2026-05-04 14:58:29 - R01 - Candidate unlocked
+2026-05-04 14:58:29 - R01 - NETCONF session closed
+2026-05-04 14:58:29 - R01 - Deployment FAILED: expected tag: mask, got tag: wildcard
+
+2026-05-04 15:03:38 - --- Deploying to R01 ---
+2026-05-04 15:03:38 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:03:39 - R01 - Connected
+2026-05-04 15:03:40 - R01 - Candidate locked
+2026-05-04 15:03:40 - R01 - Candidate cleared
+2026-05-04 15:03:40 - R01 - edit-config OK
+2026-05-04 15:03:43 - R01 - COMMIT SUCCESS
+2026-05-04 15:03:48 - R01 - Post-check OK
+2026-05-04 15:03:48 - R01 - Candidate unlocked
+2026-05-04 15:03:48 - R01 - NETCONF session closed
+2026-05-04 15:09:35 - --- Deploying to R01 ---
+2026-05-04 15:09:35 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:09:36 - R01 - Connected
+2026-05-04 15:09:36 - R01 - Candidate locked
+2026-05-04 15:09:36 - R01 - Candidate cleared
+2026-05-04 15:09:37 - R01 - edit-config OK
+2026-05-04 15:09:38 - R01 - COMMIT SUCCESS
+2026-05-04 15:09:43 - R01 - Post-check OK
+2026-05-04 15:09:43 - R01 - Candidate unlocked
+2026-05-04 15:09:43 - R01 - NETCONF session closed
+2026-05-04 15:16:33 - --- Deploying to R01 ---
+2026-05-04 15:16:33 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:16:34 - R01 - Connected
+2026-05-04 15:16:34 - R01 - Candidate locked
+2026-05-04 15:16:35 - R01 - Candidate cleared
+2026-05-04 15:16:35 - R01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>ospf</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/0']/ios:ip/ios:ospf\n  ", 'message': None}
+2026-05-04 15:16:35 - R01 - discard-changes executed
+2026-05-04 15:16:35 - R01 - Candidate unlocked
+2026-05-04 15:16:35 - R01 - NETCONF session closed
+2026-05-04 15:16:35 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>ospf</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/0']/ios:ip/ios:ospf\n  ", 'message': None}
+
+2026-05-04 15:18:21 - --- Deploying to R01 ---
+2026-05-04 15:18:21 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:18:22 - R01 - Connected
+2026-05-04 15:18:22 - R01 - Candidate locked
+2026-05-04 15:18:22 - R01 - Candidate cleared
+2026-05-04 15:18:22 - R01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>ospf</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/0']/ios:ip/ios:ospf\n  ", 'message': None}
+2026-05-04 15:18:23 - R01 - discard-changes executed
+2026-05-04 15:18:23 - R01 - Candidate unlocked
+2026-05-04 15:18:23 - R01 - NETCONF session closed
+2026-05-04 15:18:23 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>ospf</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/0']/ios:ip/ios:ospf\n  ", 'message': None}
+
+2026-05-04 15:23:38 - --- Deploying to R01 ---
+2026-05-04 15:23:38 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:23:39 - R01 - Connected
+2026-05-04 15:23:39 - R01 - Candidate locked
+2026-05-04 15:23:39 - R01 - Candidate cleared
+2026-05-04 15:23:39 - R01 - ERROR: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+2026-05-04 15:23:40 - R01 - discard-changes executed
+2026-05-04 15:23:40 - R01 - Candidate unlocked
+2026-05-04 15:23:40 - R01 - NETCONF session closed
+2026-05-04 15:23:40 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+
+2026-05-04 15:25:17 - --- Deploying to R01 ---
+2026-05-04 15:25:17 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:25:18 - R01 - Connected
+2026-05-04 15:25:18 - R01 - Candidate locked
+2026-05-04 15:25:18 - R01 - Candidate cleared
+2026-05-04 15:25:18 - R01 - ERROR: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+2026-05-04 15:25:18 - R01 - discard-changes executed
+2026-05-04 15:25:18 - R01 - Candidate unlocked
+2026-05-04 15:25:19 - R01 - NETCONF session closed
+2026-05-04 15:25:19 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+
+2026-05-04 15:29:14 - --- Deploying to R01 ---
+2026-05-04 15:29:14 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:29:16 - R01 - Connected
+2026-05-04 15:29:16 - R01 - Candidate locked
+2026-05-04 15:29:16 - R01 - Candidate cleared
+2026-05-04 15:29:16 - R01 - edit-config OK
+2026-05-04 15:29:16 - R01 - COMMIT SUCCESS
+2026-05-04 15:29:21 - R01 - Post-check OK
+2026-05-04 15:29:21 - R01 - Candidate unlocked
+2026-05-04 15:29:21 - R01 - NETCONF session closed
+2026-05-04 15:50:06 - --- Deploying to R01 ---
+2026-05-04 15:50:06 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 15:50:38 - R01 - ERROR: Could not open socket to 172.16.7.2:830
+2026-05-04 15:50:38 - R01 - Deployment FAILED: Could not open socket to 172.16.7.2:830
+
+2026-05-04 15:50:38 - --- Deploying to SW01 ---
+2026-05-04 15:50:38 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/switch-sw01.xml
+2026-05-04 15:50:41 - SW01 - Connected
+2026-05-04 15:50:41 - SW01 - Candidate locked
+2026-05-04 15:50:41 - SW01 - Candidate cleared
+2026-05-04 15:50:41 - SW01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>vlan-list</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:vlan-list\n  ', 'message': None}
+2026-05-04 15:50:41 - SW01 - discard-changes executed
+2026-05-04 15:50:41 - SW01 - Candidate unlocked
+2026-05-04 15:50:42 - SW01 - NETCONF session closed
+2026-05-04 15:50:42 - SW01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>vlan-list</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:vlan-list\n  ', 'message': None}
+
+2026-05-04 15:57:42 - --- Deploying to SW01 ---
+2026-05-04 15:57:42 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/switch-sw01.xml
+2026-05-04 15:57:44 - SW01 - Connected
+2026-05-04 15:57:44 - SW01 - Candidate locked
+2026-05-04 15:57:44 - SW01 - Candidate cleared
+2026-05-04 15:57:44 - SW01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>vlan-list</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:vlan-list\n  ', 'message': None}
+2026-05-04 15:57:44 - SW01 - discard-changes executed
+2026-05-04 15:57:44 - SW01 - Candidate unlocked
+2026-05-04 15:57:44 - SW01 - NETCONF session closed
+2026-05-04 15:57:44 - SW01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>vlan-list</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:vlan-list\n  ', 'message': None}
+
+2026-05-04 16:01:02 - --- Deploying to SW01 ---
+2026-05-04 16:01:02 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/switch-sw01.xml
+2026-05-04 16:01:03 - SW01 - Connected
+2026-05-04 16:01:03 - SW01 - Candidate locked
+2026-05-04 16:01:04 - SW01 - Candidate cleared
+2026-05-04 16:01:04 - SW01 - ERROR: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>vlan-list</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:vlan-list\n  ', 'message': None}
+2026-05-04 16:01:04 - SW01 - discard-changes executed
+2026-05-04 16:01:04 - SW01 - Candidate unlocked
+2026-05-04 16:01:04 - SW01 - NETCONF session closed
+2026-05-04 16:01:04 - SW01 - Deployment FAILED: {'type': 'application', 'tag': 'unknown-element', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>vlan-list</bad-element>\n</error-info>\n', 'path': '\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:vlan/ios:vlan-list\n  ', 'message': None}
+
+2026-05-04 16:04:54 - --- Deploying to SW01 ---
+2026-05-04 16:04:54 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/switch-sw01.xml
+2026-05-04 16:04:55 - SW01 - Connected
+2026-05-04 16:04:55 - SW01 - Candidate locked
+2026-05-04 16:04:56 - SW01 - Candidate cleared
+2026-05-04 16:04:56 - SW01 - edit-config OK
+2026-05-04 16:04:57 - SW01 - COMMIT SUCCESS
+2026-05-04 16:05:24 - SW01 - Post-check OK
+2026-05-04 16:05:24 - SW01 - Candidate unlocked
+2026-05-04 16:05:24 - SW01 - NETCONF session closed
+2026-05-04 16:50:55 - --- Deploying to R01 ---
+2026-05-04 16:50:55 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 16:51:17 - R01 - ERROR: Could not open socket to 172.16.7.2:830
+2026-05-04 16:51:17 - R01 - Deployment FAILED: Could not open socket to 172.16.7.2:830
+
+2026-05-04 16:51:41 - --- Deploying to R01 ---
+2026-05-04 16:51:41 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 16:51:42 - R01 - Connected
+2026-05-04 16:51:42 - R01 - Candidate locked
+2026-05-04 16:51:43 - R01 - Candidate cleared
+2026-05-04 16:51:43 - R01 - edit-config OK
+2026-05-04 16:51:43 - R01 - COMMIT SUCCESS
+2026-05-04 16:51:48 - R01 - Post-check OK
+2026-05-04 16:51:48 - R01 - Candidate unlocked
+2026-05-04 16:51:48 - R01 - NETCONF session closed
+2026-05-04 17:02:06 - --- Deploying to R01 ---
+2026-05-04 17:02:06 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-04 17:02:07 - R01 - Connected
+2026-05-04 17:02:07 - R01 - Candidate locked
+2026-05-04 17:02:07 - R01 - Candidate cleared
+2026-05-04 17:02:08 - R01 - ERROR: expected tag: id, got tag: ospf
+2026-05-04 17:02:08 - R01 - discard-changes executed
+2026-05-04 17:02:08 - R01 - Candidate unlocked
+2026-05-04 17:02:08 - R01 - NETCONF session closed
+2026-05-04 17:02:08 - R01 - Deployment FAILED: expected tag: id, got tag: ospf
+
+2026-05-11 14:04:39 - --- Deploying to R01 ---
+2026-05-11 14:04:39 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-11 14:04:53 - R01 - Connected
+2026-05-11 14:04:53 - R01 - Candidate locked
+2026-05-11 14:04:53 - R01 - Candidate cleared
+2026-05-11 14:04:53 - R01 - ERROR: expected tag: id, got tag: ospf
+2026-05-11 14:04:54 - R01 - discard-changes executed
+2026-05-11 14:04:54 - R01 - Candidate unlocked
+2026-05-11 14:04:54 - R01 - NETCONF session closed
+2026-05-11 14:04:54 - R01 - Deployment FAILED: expected tag: id, got tag: ospf
+
