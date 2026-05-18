@@ -423,3 +423,25 @@
 2026-05-18 14:01:08 - R01 - Post-check OK
 2026-05-18 14:01:08 - R01 - Candidate unlocked
 2026-05-18 14:01:08 - R01 - NETCONF session closed
+2026-05-18 14:20:13 - --- Deploying to R01 ---
+2026-05-18 14:20:13 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-18 14:20:15 - R01 - Connected
+2026-05-18 14:20:15 - R01 - Candidate locked
+2026-05-18 14:20:15 - R01 - Candidate cleared
+2026-05-18 14:20:15 - R01 - ERROR: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+2026-05-18 14:20:15 - R01 - discard-changes executed
+2026-05-18 14:20:15 - R01 - Candidate unlocked
+2026-05-18 14:20:15 - R01 - NETCONF session closed
+2026-05-18 14:20:15 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+
+2026-05-18 14:20:26 - --- Deploying to R01 ---
+2026-05-18 14:20:26 - Fetching config from https://raw.githubusercontent.com/JohnnyMoorenPXL/task36-netconf/main/configs/router-r01.xml
+2026-05-18 14:20:28 - R01 - Connected
+2026-05-18 14:20:28 - R01 - Candidate locked
+2026-05-18 14:20:28 - R01 - Candidate cleared
+2026-05-18 14:20:28 - R01 - ERROR: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+2026-05-18 14:20:28 - R01 - discard-changes executed
+2026-05-18 14:20:28 - R01 - Candidate unlocked
+2026-05-18 14:20:28 - R01 - NETCONF session closed
+2026-05-18 14:20:28 - R01 - Deployment FAILED: {'type': 'application', 'tag': 'data-missing', 'app_tag': None, 'severity': 'error', 'info': '<?xml version="1.0" encoding="UTF-8"?><error-info xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><bad-element>shutdown</bad-element>\n</error-info>\n', 'path': "\n    /nc:rpc/nc:edit-config/nc:config/ios:native/ios:interface/ios:GigabitEthernet[ios:name='0/0/1']/ios:shutdown\n  ", 'message': None}
+
